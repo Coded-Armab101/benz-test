@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.nav-logo{
+    font-family: "Playfair Display", serif;
+}
+.nav-list{
+    font-family: "Nunito", serif;
+
+}
+.con{
+    font-family: "Nunito", serif;
+
+}
+.btn{
+    font-family: "Nunito", serif;
+
+}
+header{
+    background-size: cover;
+    background-position: center;
+}
+.col{
+    background: url(./smil4.avif);
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    /* padding: 90px; */
+    background-size: cover;
+    background-position: center;
+}
+.col h1{
+    color: white;
+    font-size: 32px;
+}
+.grids{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4rem 2rem;
+}
